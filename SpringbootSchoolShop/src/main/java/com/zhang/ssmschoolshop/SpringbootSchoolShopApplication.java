@@ -12,7 +12,7 @@ import org.springframework.mail.SimpleMailMessage;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@EnableSwagger2
+@EnableSwagger
 @MapperScan("com.zhang.ssmschoolshop.dao")
 public class SpringbootSchoolShopApplication extends SpringBootServletInitializer {
 
